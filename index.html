@@ -650,6 +650,7 @@
     <li><a href="#beliefs">Beliefs</a></li>
     <li><a href="#who">Who</a></li>
     <li><a href="#benefits">Benefits</a></li>
+    <li><a href="field-guide.html" style="color:var(--electric);">Field Guide ↗</a></li>
   </ul>
 </nav>
 
@@ -814,6 +815,89 @@
     </div>
   </div>
 </section>
+
+<!-- ═══════════ Field Guide ═══════════ -->
+<hr class="divider">
+<section class="section" id="field-guide">
+  <span class="section-label">Community Resource</span>
+  <h2>The Agentic AI<br/>Builder's Field Guide</h2>
+  <p class="section-intro">A reference index to the full agentic AI ecosystem — frameworks, models, local inference, cloud providers, protocols, security, and architecture patterns. Everything you need to orient yourself before the first meetup.</p>
+  <a href="field-guide.html" class="field-guide-card">
+    <div class="field-guide-card-inner">
+      <div>
+        <div class="field-guide-meta">April 2026 &nbsp;·&nbsp; 13 topics &nbsp;·&nbsp; 20+ frameworks &nbsp;·&nbsp; 40+ models &nbsp;·&nbsp; 10+ providers</div>
+        <h3 class="field-guide-title">Agentic AI Builder's Field Guide</h3>
+        <p class="field-guide-desc">Frameworks · Local inference · Open models · Cloud pricing · MCP & A2A · Architecture patterns · Observability · Security · Memory & RAG</p>
+      </div>
+      <div class="field-guide-cta">Read the guide &nbsp;⇧</div>
+    </div>
+  </a>
+</section>
+
+<style>
+  .field-guide-card {
+    display: block;
+    text-decoration: none;
+    background: var(--card-bg);
+    border: 1px solid rgba(0,255,136,0.2);
+    border-radius: 12px;
+    padding: 2rem 2.5rem;
+    max-width: 760px;
+    transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+  }
+  .field-guide-card:hover {
+    border-color: var(--electric);
+    transform: translateY(-3px);
+    box-shadow: 0 0 32px rgba(0,255,136,0.08);
+  }
+  .field-guide-card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .field-guide-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--electric);
+    margin-bottom: 0.6rem;
+  }
+  .field-guide-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.02em;
+  }
+  .field-guide-desc {
+    font-size: 0.9rem;
+    color: var(--mid-gray);
+    line-height: 1.6;
+  }
+  .field-guide-cta {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--electric);
+    white-space: nowrap;
+    padding: 0.6rem 1.25rem;
+    border: 1px solid rgba(0,255,136,0.3);
+    border-radius: 6px;
+    transition: background 0.15s;
+    flex-shrink: 0;
+  }
+  .field-guide-card:hover .field-guide-cta {
+    background: rgba(0,255,136,0.08);
+  }
+  @media (max-width: 600px) {
+    .field-guide-card-inner { flex-direction: column; align-items: flex-start; }
+    .field-guide-cta { align-self: flex-start; }
+    .field-guide-card { padding: 1.5rem; }
+  }
+</style>
 
 <!-- ═══════════ Meetups ═══════════ -->
 <hr class="divider">
